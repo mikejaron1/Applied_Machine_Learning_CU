@@ -1,0 +1,11 @@
+language: python
+sudo: required
+python:
+  - "3.4"
+# command to install dependencies
+install: 
+- "pip install -U pip"
+- "pip install -U pandas scikit-learn numpy matplotlib nbconvert jupyter_client ipykernel seaborn imblearn"
+# command to run tests
+# script: jupyter-nbconvert --execute hw3_starter_notebook.ipynb
+script: travis_wait 45 jupyter-nbconvert --execute hw3_starter_notebook.ipynb --ExecutePreprocessor.timeout=None
