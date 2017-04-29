@@ -1,0 +1,10 @@
+.ipynb_checkpoints/
+*.pyc
+*.so
+*.pyd
+*~
+.#*
+*.lprof
+*.swp
+*.swo
+.DS_Store
