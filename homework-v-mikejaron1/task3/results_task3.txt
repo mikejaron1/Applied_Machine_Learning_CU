@@ -1,0 +1,6 @@
+base model:
+best params ={'epochs': 15, 'conv1': 3, 'hidden_size': 32, 'optimizer': 'adam'}Test lost: 3.188
+Test Accuracy: 0.100
+With Batch Normalization:
+best params ={'epochs': 20, 'hidden_size': 64}Test lost: 3.641
+Test Accuracy: 0.100
